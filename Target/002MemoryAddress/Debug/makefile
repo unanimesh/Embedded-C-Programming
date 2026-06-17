@@ -59,8 +59,8 @@ all: main-build
 main-build: 002MemoryAddress.elf secondary-outputs
 
 # Tool invocations
-002MemoryAddress.elf 002MemoryAddress.map: $(OBJS) $(USER_OBJS) /home/animesh/Documents/Embedded_System\ (copy\ 1)/Embedded-C/My_Workspace/Target/002MemoryAddress/STM32F411RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "002MemoryAddress.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/animesh/Documents/Embedded_System (copy 1)/Embedded-C/My_Workspace/Target/002MemoryAddress/STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="002MemoryAddress.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+002MemoryAddress.elf 002MemoryAddress.map: $(OBJS) $(USER_OBJS) /home/animesh/Documents/Embedded_System/Embedded_C/My_Workspace/Target/002MemoryAddress/STM32F411RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "002MemoryAddress.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/animesh/Documents/Embedded_System/Embedded_C/My_Workspace/Target/002MemoryAddress/STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="002MemoryAddress.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
