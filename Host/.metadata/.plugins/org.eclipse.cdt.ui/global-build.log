@@ -1,15 +1,271 @@
-22:17:00 **** Incremental Build of configuration Debug for project Pointer_Exercise ****
+22:37:25 **** Incremental Build of configuration Debug for project 03_Poniter ****
 make all 
 Building file: ../main.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
 Finished building: ../main.c
  
-Building target: Pointer_Exercise
+Building target: 03_Poniter
 Invoking: GCC C Linker
-gcc  -o "Pointer_Exercise" ./main.o   
-Finished building target: Pointer_Exercise
+gcc  -o "03_Poniter" ./main.o   
+Finished building target: 03_Poniter
  
-22:17:03 **** Incremental Build of configuration Debug for project Pointer_Exercise ****
+22:38:02 **** Incremental Build of configuration Debug for project 03_Poniter ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 03_Poniter
+Invoking: GCC C Linker
+gcc  -o "03_Poniter" ./main.o   
+Finished building target: 03_Poniter
+ 
+22:38:13 **** Incremental Build of configuration Debug for project 03_Poniter ****
 make all 
 make: Nothing to be done for 'all'.
+22:38:16 **** Incremental Build of configuration Debug for project 03_Poniter ****
+make all 
+make: Nothing to be done for 'all'.
+22:38:18 **** Incremental Build of configuration Debug for project 03_Poniter ****
+make all 
+make: Nothing to be done for 'all'.
+22:38:20 **** Incremental Build of configuration Debug for project 03_Poniter ****
+make all 
+make: Nothing to be done for 'all'.
+22:38:22 **** Incremental Build of configuration Debug for project 03_Poniter ****
+make all 
+make: Nothing to be done for 'all'.
+22:42:23 **** Incremental Build of configuration Debug for project 03_Poniter ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:24:9: error: ‘pAddress12’ undeclared (first use in this function); did you mean ‘pAddress2’?
+   24 |         pAddress12 = (short*)&g_data;
+      |         ^~~~~~~~~~
+      |         pAddress2
+../main.c:24:9: note: each undeclared identifier is reported only once for each function it appears in
+../main.c:28:9: error: ‘pAddress’ undeclared (first use in this function); did you mean ‘pAddress3’?
+   28 |         pAddress = (long*)&g_data;
+      |         ^~~~~~~~
+      |         pAddress3
+../main.c:29:46: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long int’ [-Wformat=]
+   29 |         printf("The value at Address %p is :%d\n ",pAddress3,*pAddress3);
+      |                                             ~^               ~~~~~~~~~~
+      |                                              |               |
+      |                                              int             long int
+      |                                             %ld
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:43:21 **** Incremental Build of configuration Debug for project 03_Poniter ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 03_Poniter
+Invoking: GCC C Linker
+gcc  -o "03_Poniter" ./main.o   
+Finished building target: 03_Poniter
+ 
+22:48:08 **** Incremental Build of configuration Debug for project 03_Poniter ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:24:9: error: ‘pAddress12’ undeclared (first use in this function); did you mean ‘pAddress2’?
+   24 |         pAddress12 = (short*)&g_data;
+      |         ^~~~~~~~~~
+      |         pAddress2
+../main.c:24:9: note: each undeclared identifier is reported only once for each function it appears in
+../main.c:28:9: error: ‘pAddress’ undeclared (first use in this function); did you mean ‘pAddress3’?
+   28 |         pAddress = (long*)&g_data;
+      |         ^~~~~~~~
+      |         pAddress3
+../main.c:29:40: warning: format ‘%lx’ expects argument of type ‘long unsigned int’, but argument 2 has type ‘long int *’ [-Wformat=]
+   29 |         printf("The value at Address %lx is :%d\n ",pAddress3,*pAddress3);
+      |                                      ~~^            ~~~~~~~~~
+      |                                        |            |
+      |                                        |            long int *
+      |                                        long unsigned int
+      |                                      %ln
+../main.c:29:47: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long int’ [-Wformat=]
+   29 |         printf("The value at Address %lx is :%d\n ",pAddress3,*pAddress3);
+      |                                              ~^               ~~~~~~~~~~
+      |                                               |               |
+      |                                               int             long int
+      |                                              %ld
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:48:32 **** Incremental Build of configuration Debug for project 03_Poniter ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:24:9: error: ‘pAddress12’ undeclared (first use in this function); did you mean ‘pAddress2’?
+   24 |         pAddress12 = (short*)&g_data;
+      |         ^~~~~~~~~~
+      |         pAddress2
+../main.c:24:9: note: each undeclared identifier is reported only once for each function it appears in
+../main.c:28:9: error: ‘pAddress’ undeclared (first use in this function); did you mean ‘pAddress3’?
+   28 |         pAddress = (long*)&g_data;
+      |         ^~~~~~~~
+      |         pAddress3
+../main.c:29:40: warning: format ‘%lx’ expects argument of type ‘long unsigned int’, but argument 2 has type ‘long int *’ [-Wformat=]
+   29 |         printf("The value at Address %lx is :%ld\n ",pAddress3,*pAddress3);
+      |                                      ~~^             ~~~~~~~~~
+      |                                        |             |
+      |                                        |             long int *
+      |                                        long unsigned int
+      |                                      %ln
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:48:52 **** Incremental Build of configuration Debug for project 03_Poniter ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:24:9: error: ‘pAddress12’ undeclared (first use in this function); did you mean ‘pAddress2’?
+   24 |         pAddress12 = (short*)&g_data;
+      |         ^~~~~~~~~~
+      |         pAddress2
+../main.c:24:9: note: each undeclared identifier is reported only once for each function it appears in
+../main.c:28:9: error: ‘pAddress’ undeclared (first use in this function); did you mean ‘pAddress3’?
+   28 |         pAddress = (long*)&g_data;
+      |         ^~~~~~~~
+      |         pAddress3
+../main.c:29:40: warning: format ‘%lx’ expects argument of type ‘long unsigned int’, but argument 2 has type ‘long int *’ [-Wformat=]
+   29 |         printf("The value at Address %lx is :%lu\n ",pAddress3,*pAddress3);
+      |                                      ~~^             ~~~~~~~~~
+      |                                        |             |
+      |                                        |             long int *
+      |                                        long unsigned int
+      |                                      %ln
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:50:22 **** Incremental Build of configuration Debug for project 03_Poniter ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:29:40: warning: format ‘%lx’ expects argument of type ‘long unsigned int’, but argument 2 has type ‘long int *’ [-Wformat=]
+   29 |         printf("The value at Address %lx is :%lu\n ",pAddress3,*pAddress3);
+      |                                      ~~^             ~~~~~~~~~
+      |                                        |             |
+      |                                        |             long int *
+      |                                        long unsigned int
+      |                                      %ln
+Finished building: ../main.c
+ 
+Building target: 03_Poniter
+Invoking: GCC C Linker
+gcc  -o "03_Poniter" ./main.o   
+Finished building target: 03_Poniter
+ 
+22:50:33 **** Incremental Build of configuration Debug for project 03_Poniter ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 03_Poniter
+Invoking: GCC C Linker
+gcc  -o "03_Poniter" ./main.o   
+Finished building target: 03_Poniter
+ 
+22:51:06 **** Incremental Build of configuration Debug for project 03_Poniter ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 03_Poniter
+Invoking: GCC C Linker
+gcc  -o "03_Poniter" ./main.o   
+Finished building target: 03_Poniter
+ 
+22:55:04 **** Incremental Build of configuration Debug for project 03_Poniter ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:31:20: error: conflicting types for ‘pAddress2’; have ‘long long int *’
+   31 |         long long *pAddress2;
+      |                    ^~~~~~~~~
+../main.c:19:16: note: previous declaration of ‘pAddress2’ with type ‘short int *’
+   19 |         short *pAddress2;
+      |                ^~~~~~~~~
+../main.c:33:46: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long long int’ [-Wformat=]
+   33 |         printf("The value at Address %p is :%d\n",pAddress2,*pAddress2);
+      |                                             ~^              ~~~~~~~~~~
+      |                                              |              |
+      |                                              int            long long int
+      |                                             %lld
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:55:42 **** Incremental Build of configuration Debug for project 03_Poniter ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:32:19: error: assignment to ‘short int *’ from incompatible pointer type ‘long long int *’ [-Wincompatible-pointer-types]
+   32 |         pAddress2 = &g_data;            // No Typecasting required
+      |                   ^
+../main.c:33:64: error: ‘pAddress’ undeclared (first use in this function); did you mean ‘pAddress4’?
+   33 |         printf("The value at Address %p is :%llu\n",pAddress4,*pAddress);
+      |                                                                ^~~~~~~~
+      |                                                                pAddress4
+../main.c:33:64: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:56:03 **** Incremental Build of configuration Debug for project 03_Poniter ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 03_Poniter
+Invoking: GCC C Linker
+gcc  -o "03_Poniter" ./main.o   
+Finished building target: 03_Poniter
+ 
+22:56:33 **** Incremental Build of configuration Debug for project 03_Poniter ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:11:24: warning: integer constant is too large for its type
+   11 | long long int g_data = 0xEFABC342EFABC342399012BC399012BC;
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../main.c
+ 
+Building target: 03_Poniter
+Invoking: GCC C Linker
+gcc  -o "03_Poniter" ./main.o   
+Finished building target: 03_Poniter
+ 
+22:57:17 **** Incremental Build of configuration Debug for project 03_Poniter ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 03_Poniter
+Invoking: GCC C Linker
+gcc  -o "03_Poniter" ./main.o   
+Finished building target: 03_Poniter
+ 

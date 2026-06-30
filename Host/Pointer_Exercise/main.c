@@ -1,24 +1,19 @@
-/*
- * main.c
- *
- *  Created on: 26-Jun-2026
- *      Author: animesh
- */
-
 #include<stdio.h>
 int main()
 {
-	char variable = 100;
-	printf("The value is  variable is %d\n",variable);
-	printf("The address of varible is %p\n",&variable);
+	char data = 100;
 
-	char* p_variable = &variable;		// Created pointer to store the address of variable
+	printf("Tha data: %d\n",data);
 
-	char data = *p_variable;			// Performed Read operations to fetch 1 byte data
-	printf("The read Value is %d\n",data);
+	printf("The address: %p\n",&data);
 
-	*p_variable = 65;					// Performed Write operations on pointer
-	printf("The value of variable is %d\n",variable);
+	char* pdata = (char*)&data;
 
-	return 0;
+	char variable = *pdata;
+
+	printf("The data: %d\n", variable);
+
+	*pdata = 65;
+
+	printf("The data: %d\n",data);
 }
