@@ -24,10 +24,8 @@ int main(void)
 
 	 printf("The value of address %p is %X\n",pAddressss, *pAddressss);
 
-	 pAddressss +=1;
+	 pAddressss +=1;// it increment 4 byte of data bcz its int data type
 
 	 printf("The value of address %p is %X\n",pAddressss, *pAddressss);
-
-
 
 }
