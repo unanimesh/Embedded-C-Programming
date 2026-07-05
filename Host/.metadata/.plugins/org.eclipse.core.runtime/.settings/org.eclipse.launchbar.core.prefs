@@ -1,8 +1,10 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:math,org.eclipse.launchbar.core.descriptorType.default\:functions,org.eclipse.launchbar.core.descriptorType.default\:var-address,org.eclipse.launchbar.core.descriptorType.default\:type_casting,org.eclipse.launchbar.core.descriptorType.default\:Float_Price,org.eclipse.launchbar.core.descriptorType.default\:Average,org.eclipse.launchbar.core.descriptorType.default\:ASCII,org.eclipse.launchbar.core.descriptorType.default\:Float_Charge,org.eclipse.launchbar.core.descriptorType.default\:Pointer_Exercise,org.eclipse.launchbar.core.descriptorType.default\:03_Poniter
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:math,org.eclipse.launchbar.core.descriptorType.default\:functions,org.eclipse.launchbar.core.descriptorType.default\:var-address,org.eclipse.launchbar.core.descriptorType.default\:type_casting,org.eclipse.launchbar.core.descriptorType.default\:Float_Price,org.eclipse.launchbar.core.descriptorType.default\:Average,org.eclipse.launchbar.core.descriptorType.default\:ASCII,org.eclipse.launchbar.core.descriptorType.default\:Float_Charge,org.eclipse.launchbar.core.descriptorType.default\:Pointer_Exercise,org.eclipse.launchbar.core.descriptorType.default\:03_Poniter,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:03_Pointer Debug,org.eclipse.launchbar.core.descriptorType.default\:03_Pointer
 eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:03_Pointer\ Debug/activeLaunchTarget=null\:---
+org.eclipse.launchbar.core.descriptorType.default\:03_Pointer/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:math/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:math/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:type_casting/activeLaunchMode=run
