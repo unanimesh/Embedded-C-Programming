@@ -15,6 +15,10 @@ int main(void)
 
 	printf("The value of address %p is: %X\n",pAddress, *pAddress);
 
+	pAddress = pAddress + 1;
+
+	printf("The value of address %p is: %X\n",pAddress, (unsigned char)*pAddress);
+	// type cast here bcz it df promoted to the int data types, df value is 11011111 it is negative number bcz of 1 in first.
 
 
 
