@@ -16,5 +16,9 @@ int main()
 {
 	int age = 56;
 
+	if (age>=18)
+	{
+		printf("Your age is %d and You are eligible for vote.\n",age);
+	}
 
-}
+
