@@ -21,4 +21,7 @@ int main()
 		printf("Your age is %d and You are eligible for vote.\n",age);
 	}
 
+	printf("Minimum age required for the voting is 18.\n");
 
+	return 0;
+}
