@@ -14,7 +14,7 @@
 #include<stdio.h>
 int main()
 {
-	int age = 56;
+	int age = 17;
 
 	if (age>=18)
 	{
