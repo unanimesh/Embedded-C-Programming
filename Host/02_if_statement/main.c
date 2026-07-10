@@ -9,10 +9,17 @@ int main()
 {
 	float firstNum, secondNum;
 	printf("Enter first number\n");
-	scanf("%f",&firstNum);
+
+	if(scanf("%f",&firstNum) == 0){
+		printf("Invalid Input, Exiting...");
+		return 0;
+	}
 
 	printf("Enter second number\n");
-	scanf("%f",&secondNum);
+	if(scanf("%f",&secondNum) == 0){
+			printf("Invalid Input, Exiting...");
+			return 0;
+		}
 
 	int num1, num2;
 	num1 = firstNum;
