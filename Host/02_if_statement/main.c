@@ -15,13 +15,14 @@ int main()
 	scanf("%d",&secondNum);
 
 	if (firstNum == secondNum){
-		printf("Both the number is equal. i.e:%d\n",firstNum);
-	}
-
-	if (firstNum > secondNum){
-		printf("First number is greater than second. i.e: %d>%d",firstNum,secondNum);
+		printf("Both the number is equal. i.e: %d\n",firstNum);
 	}else{
-		printf("Second number is greater than first. i.e: %d>%d",secondNum,firstNum);
+
+		if (firstNum > secondNum){
+			printf("First number is greater than second. i.e: %d>%d",firstNum,secondNum);
+		}else{
+			printf("Second number is greater than first. i.e: %d>%d",secondNum,firstNum);
+		}
 	}
 
 }
