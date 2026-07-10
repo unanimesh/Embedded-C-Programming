@@ -8,17 +8,17 @@
 int main()
 {
 	float firstNum, secondNum;
-	printf("Enter first number\n");
 
-	if(scanf("%f",&firstNum) == 0){
-		printf("Invalid Input, Exiting...");
-		return 0;
+	printf("Enter first number:\n");
+	while (scanf("%f",&firstNum) != 1){
+		printf("Invalid Input, Please Enter Valid Input Again:\n");
+		while(getchar() !='\n');
 	}
 
-	printf("Enter second number\n");
-	if(scanf("%f",&secondNum) == 0){
-			printf("Invalid Input, Exiting...");
-			return 0;
+	printf("Enter second number:\n");
+	while (scanf("%f",&secondNum) != 1){
+			printf("Invalid Input, Please Enter Valid Input Again\n");
+			while(getchar() !='\n');
 		}
 
 	int num1, num2;
@@ -33,9 +33,9 @@ int main()
 	}else{
 
 		if (num1 > num2){
-			printf("First number is greater than second. i.e: %d>%d",num1,num2);
+			printf("First number is greater than second. i.e: %d>%d\n",num1,num2);
 		}else{
-			printf("Second number is greater than first. i.e: %d>%d",num2,num1);
+			printf("Second number is greater than first. i.e: %d>%d\n",num2,num1);
 		}
 	}
 
