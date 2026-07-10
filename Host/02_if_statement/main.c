@@ -18,6 +18,9 @@ int main()
 	num1 = firstNum;
 	num2 = secondNum;
 
+	if((num1 != firstNum) || (num2 != secondNum))
+		printf("Warning! Only integer is considered here.\n");
+
 	if (num1 == num2){
 		printf("Both the number is equal. i.e: %d\n",num1);
 	}else{
