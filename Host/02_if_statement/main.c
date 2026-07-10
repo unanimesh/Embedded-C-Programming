@@ -7,21 +7,25 @@
 #include<stdio.h>
 int main()
 {
-	int firstNum, secondNum;
+	float firstNum, secondNum;
 	printf("Enter first number\n");
-	scanf("%d",&firstNum);
+	scanf("%f",&firstNum);
 
 	printf("Enter second number\n");
-	scanf("%d",&secondNum);
+	scanf("%f",&secondNum);
 
-	if (firstNum == secondNum){
-		printf("Both the number is equal. i.e: %d\n",firstNum);
+	int num1, num2;
+	num1 = firstNum;
+	num2 = secondNum;
+
+	if (num1 == num2){
+		printf("Both the number is equal. i.e: %d\n",num1);
 	}else{
 
-		if (firstNum > secondNum){
-			printf("First number is greater than second. i.e: %d>%d",firstNum,secondNum);
+		if (num1 > num2){
+			printf("First number is greater than second. i.e: %d>%d",num1,num2);
 		}else{
-			printf("Second number is greater than first. i.e: %d>%d",secondNum,firstNum);
+			printf("Second number is greater than first. i.e: %d>%d",num2,num1);
 		}
 	}
 
