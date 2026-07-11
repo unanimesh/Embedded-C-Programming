@@ -7,15 +7,16 @@
 
 #include<stdio.h>
 #include<stdint.h>
+#include<inttypes.h>
 int main()
 {
 	uint64_t income,tax;
 	double tempIncome;
 
 	printf("Enter your Annual Income.\n");
-	scanf("%f",&tempIncome);
+	scanf("%lf",&tempIncome);
 
-	tempIncome =(uint64_t) income;
+	income =(uint64_t) tempIncome;
 
 	if(income <= 9525)
 	{
@@ -34,7 +35,7 @@ int main()
 		tax = ((income*32)/100)+1000;
 	}
 
-	printf("You have to pay %.2f$ taxes.\n",tax);
+	printf("You have to pay %lu$ taxes.\n",tax);
 
 	return 0;
 }
