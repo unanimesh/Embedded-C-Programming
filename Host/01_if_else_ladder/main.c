@@ -28,5 +28,9 @@ int main()
 		tax = (income*22)/100;
 		printf("You have to pay %.2f$ taxes.\n",tax);
 	}
-
+	else if(income > 82501)
+	{
+		tax = ((income*32)/100)+1000;
+		printf("You have to pay %.2f$ taxes.\n",tax);
+	}
 }
