@@ -7,7 +7,6 @@
 
 #include<stdio.h>
 #include<stdint.h>
-#include<inttypes.h>
 int main()
 {
 	uint64_t income,tax;
@@ -39,7 +38,7 @@ int main()
 		tax = ((income*32)/100)+1000;
 	}
 
-	printf("You have to pay $%lu taxes.\n",tax);
+	printf("You have to pay $%lu taxes.\n",(unsigned long)tax);
 
 	return 0;
 }
