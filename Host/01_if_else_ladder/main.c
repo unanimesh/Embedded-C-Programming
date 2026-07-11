@@ -15,6 +15,10 @@ int main()
 
 	printf("Enter your Annual Income.\n");
 	scanf("%lf",&tempIncome);
+	if(tempIncome < 0){
+		printf("Your Income is never Negative. Enter Valid Income\n");
+		return 0;
+	}
 
 	income =(uint64_t) tempIncome;
 
@@ -35,7 +39,7 @@ int main()
 		tax = ((income*32)/100)+1000;
 	}
 
-	printf("You have to pay %lu$ taxes.\n",tax);
+	printf("You have to pay $%lu taxes.\n",tax);
 
 	return 0;
 }
