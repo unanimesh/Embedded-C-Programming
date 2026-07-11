@@ -1,102 +1,30 @@
-17:52:01 **** Incremental Build of configuration Debug for project 01_if_else_ladder ****
+18:25:07 **** Incremental Build of configuration Debug for project 01_Conditional_Operator ****
 make all 
 Building file: ../main.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
 Finished building: ../main.c
  
-Building target: 01_if_else_ladder
+Building target: 01_Conditional_Operator
 Invoking: GCC C Linker
-gcc  -o "01_if_else_ladder" ./main.o   
-Finished building target: 01_if_else_ladder
+gcc  -o "01_Conditional_Operator" ./main.o   
+Finished building target: 01_Conditional_Operator
  
-17:52:04 **** Incremental Build of configuration Debug for project 01_if_else_ladder ****
+18:25:18 **** Incremental Build of configuration Debug for project 01_Conditional_Operator ****
 make all 
 make: Nothing to be done for 'all'.
-17:52:18 **** Incremental Build of configuration Debug for project 01_if_else_ladder ****
-make all 
-Building file: ../main.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
-Finished building: ../main.c
- 
-Building target: 01_if_else_ladder
-Invoking: GCC C Linker
-gcc  -o "01_if_else_ladder" ./main.o   
-Finished building target: 01_if_else_ladder
- 
-17:52:46 **** Incremental Build of configuration Debug for project 01_if_else_ladder ****
+18:25:29 **** Incremental Build of configuration Debug for project 01_Conditional_Operator ****
 make all 
 make: Nothing to be done for 'all'.
-17:55:11 **** Incremental Build of configuration Debug for project 01_if_else_ladder ****
+18:26:05 **** Incremental Build of configuration Debug for project 01_Conditional_Operator ****
 make all 
 Building file: ../main.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
 Finished building: ../main.c
  
-Building target: 01_if_else_ladder
+Building target: 01_Conditional_Operator
 Invoking: GCC C Linker
-gcc  -o "01_if_else_ladder" ./main.o   
-Finished building target: 01_if_else_ladder
+gcc  -o "01_Conditional_Operator" ./main.o   
+Finished building target: 01_Conditional_Operator
  
-17:58:28 **** Incremental Build of configuration Debug for project 01_if_else_ladder ****
-make all 
-Building file: ../main.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
-Finished building: ../main.c
- 
-Building target: 01_if_else_ladder
-Invoking: GCC C Linker
-gcc  -o "01_if_else_ladder" ./main.o   
-Finished building target: 01_if_else_ladder
- 
-17:59:17 **** Incremental Build of configuration Debug for project 01_if_else_ladder ****
-make all 
-make: Nothing to be done for 'all'.
-17:59:56 **** Incremental Build of configuration Debug for project 01_if_else_ladder ****
-make all 
-Building file: ../main.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
-Finished building: ../main.c
- 
-Building target: 01_if_else_ladder
-Invoking: GCC C Linker
-gcc  -o "01_if_else_ladder" ./main.o   
-Finished building target: 01_if_else_ladder
- 
-18:00:36 **** Incremental Build of configuration Debug for project 01_if_else_ladder ****
-make all 
-Building file: ../main.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
-Finished building: ../main.c
- 
-Building target: 01_if_else_ladder
-Invoking: GCC C Linker
-gcc  -o "01_if_else_ladder" ./main.o   
-Finished building target: 01_if_else_ladder
- 
-18:00:43 **** Incremental Build of configuration Debug for project 01_if_else_ladder ****
-make all 
-make: Nothing to be done for 'all'.
-18:02:30 **** Incremental Build of configuration Debug for project 01_if_else_ladder ****
-make all 
-Building file: ../main.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
-Finished building: ../main.c
- 
-Building target: 01_if_else_ladder
-Invoking: GCC C Linker
-gcc  -o "01_if_else_ladder" ./main.o   
-Finished building target: 01_if_else_ladder
- 
-18:02:40 **** Incremental Build of configuration Debug for project 01_if_else_ladder ****
-make all 
-make: Nothing to be done for 'all'.
-18:02:53 **** Incremental Build of configuration Debug for project 01_if_else_ladder ****
-make all 
-make: Nothing to be done for 'all'.
