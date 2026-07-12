@@ -1,15 +1,15 @@
-14:53:21 **** Incremental Build of configuration Debug for project 01_switch_case_statements ****
+21:50:44 **** Build of configuration Debug for project 01_Bitwise_Operator ****
 make all 
 Building file: ../main.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
 Finished building: ../main.c
  
-Building target: 01_switch_case_statements
+Building target: 01_Bitwise_Operator
 Invoking: GCC C Linker
-gcc  -o "01_switch_case_statements" ./main.o   
-Finished building target: 01_switch_case_statements
+gcc  -o "01_Bitwise_Operator" ./main.o   
+Finished building target: 01_Bitwise_Operator
  
-14:53:24 **** Incremental Build of configuration Debug for project 01_switch_case_statements ****
+21:50:59 **** Incremental Build of configuration Debug for project 01_Bitwise_Operator ****
 make all 
 make: Nothing to be done for 'all'.
