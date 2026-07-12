@@ -7,7 +7,6 @@ double dimensions(const char *prompt);
 int main()
 {
 	char symbol;
-	int attempts = 0;
 	double length, breadth, height, area;
 
 	printf("Enter a symbol to find its area\n"
@@ -18,26 +17,8 @@ int main()
 		   "Rectangle   --> 'R'\n"
 		   "Please Enter any of the above Symbol:");
 
-	while (attempts < 3)
-	{
-		if (scanf(" %c", &symbol) == 1)
-		{
-			if (symbol == 'T' || symbol == 't' || symbol == 'Z' || symbol == 'z' ||
-				symbol == 'C' || symbol == 'c' || symbol == 'S' || symbol == 's' ||
-				symbol == 'R' || symbol == 'r')
-			{
-				break; // Valid input, exit the loop
-			}
-			else
-			{
-				printf("Invalid input %d times. Please enter a valid symbol.\n", attempts + 1);
-				while (getchar() != '\n')
-					; // Clear the input buffer
-				attempts++;
-			}
-		}
-	}
-	// scanf("%c", &symbol);
+
+	scanf("%c", &symbol);
 
 	switch (symbol)
 	{
@@ -48,7 +29,6 @@ int main()
 		height = dimensions("Enter the height of the Triangle: ");
 
 		area = 0.5 * breadth * height;
-		printf("The area of Triangle is %lf\n", area);
 		break;
 
 	case ('Z'):
@@ -58,7 +38,6 @@ int main()
 		height = dimensions("Enter the height of the Trapezoidal: ");
 
 		area = (0.5 * (breadth + length)) * height;
-		printf("The area of Trapezoidal is %lf\n", area);
 		break;
 
 	case ('C'):
@@ -66,7 +45,6 @@ int main()
 		length = dimensions("Enter the radius of the Circle: ");
 
 		area = 3.14 * length * length;
-		printf("The area of Circle is %lf\n", area);
 		break;
 
 	case ('S'):
@@ -74,7 +52,6 @@ int main()
 		length = dimensions("Enter the side of the Square: ");
 
 		area = length * length;
-		printf("The area of Square is %lf\n", area);
 		break;
 
 	case ('R'):
@@ -83,10 +60,18 @@ int main()
 		breadth = dimensions("Enter the breadth of the Rectangle: ");
 
 		area = length * breadth;
-		printf("The area of Rectangle is %lf\n", area);
 		break;
+	default:
+		printf("Invalid Input\n");
+	}
+
+	if (area>0){
+		printf("The area is: %.2lf",area);
+	}else{
+		printf("The area is not Negative\n");
 	}
 }
+
 
 double dimensions(const char *prompt)
 {
