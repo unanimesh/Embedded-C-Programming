@@ -1,30 +1,27 @@
-23:43:30 **** Incremental Build of configuration Debug for project 01_TestingOfBit ****
+00:06:37 **** Build of configuration Debug for project 01_SettingOfBits ****
 make all 
 Building file: ../main.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
 Finished building: ../main.c
  
-Building target: 01_TestingOfBit
+Building target: 01_SettingOfBits
 Invoking: GCC C Linker
-gcc  -o "01_TestingOfBit" ./main.o   
-Finished building target: 01_TestingOfBit
+gcc  -o "01_SettingOfBits" ./main.o   
+Finished building target: 01_SettingOfBits
  
-23:43:42 **** Incremental Build of configuration Debug for project 01_TestingOfBit ****
+00:06:43 **** Incremental Build of configuration Debug for project 01_SettingOfBits ****
 make all 
 make: Nothing to be done for 'all'.
-23:44:09 **** Incremental Build of configuration Debug for project 01_TestingOfBit ****
+00:07:25 **** Incremental Build of configuration Debug for project 01_SettingOfBits ****
 make all 
 Building file: ../main.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
 Finished building: ../main.c
  
-Building target: 01_TestingOfBit
+Building target: 01_SettingOfBits
 Invoking: GCC C Linker
-gcc  -o "01_TestingOfBit" ./main.o   
-Finished building target: 01_TestingOfBit
+gcc  -o "01_SettingOfBits" ./main.o   
+Finished building target: 01_SettingOfBits
  
-23:45:17 **** Incremental Build of configuration Debug for project 01_TestingOfBit ****
-make all 
-make: Nothing to be done for 'all'.
