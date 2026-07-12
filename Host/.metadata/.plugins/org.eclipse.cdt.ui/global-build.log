@@ -1,15 +1,30 @@
-21:50:44 **** Build of configuration Debug for project 01_Bitwise_Operator ****
+23:43:30 **** Incremental Build of configuration Debug for project 01_TestingOfBit ****
 make all 
 Building file: ../main.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
 Finished building: ../main.c
  
-Building target: 01_Bitwise_Operator
+Building target: 01_TestingOfBit
 Invoking: GCC C Linker
-gcc  -o "01_Bitwise_Operator" ./main.o   
-Finished building target: 01_Bitwise_Operator
+gcc  -o "01_TestingOfBit" ./main.o   
+Finished building target: 01_TestingOfBit
  
-21:50:59 **** Incremental Build of configuration Debug for project 01_Bitwise_Operator ****
+23:43:42 **** Incremental Build of configuration Debug for project 01_TestingOfBit ****
+make all 
+make: Nothing to be done for 'all'.
+23:44:09 **** Incremental Build of configuration Debug for project 01_TestingOfBit ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 01_TestingOfBit
+Invoking: GCC C Linker
+gcc  -o "01_TestingOfBit" ./main.o   
+Finished building target: 01_TestingOfBit
+ 
+23:45:17 **** Incremental Build of configuration Debug for project 01_TestingOfBit ****
 make all 
 make: Nothing to be done for 'all'.

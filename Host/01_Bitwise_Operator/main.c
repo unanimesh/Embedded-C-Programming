@@ -24,7 +24,7 @@ int main() {
 	printf("The bitwise AND of the two numbers is: %.8b which is %d\n", n1 & n2, n1 & n2);
 	printf("The bitwise OR of the two numbers is: %.8b which is %d\n", n1 | n2, n1 | n2);
 	printf("The bitwise XOR of the two numbers is: %.8b which is %d\n", n1 ^ n2, n1 ^ n2);
-	printf("The bitwise NOT of the %d is: %.8b which is %d\n", n1, ~n1, ~n1);
+	printf("The bitwise NOT of the %d is: %b which is %d\n", num1, ~n1, ~n1);
 
 	return 0;
 }
