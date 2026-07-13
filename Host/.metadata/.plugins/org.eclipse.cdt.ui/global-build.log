@@ -1,4 +1,4 @@
-23:05:15 **** Incremental Build of configuration Debug for project 01_Projects ****
+23:16:06 **** Incremental Build of configuration Debug for project 01_Projects ****
 make all 
 Building file: ../main.c
 Invoking: GCC C Compiler
@@ -10,6 +10,6 @@ Invoking: GCC C Linker
 gcc  -o "01_Projects" ./main.o   
 Finished building target: 01_Projects
  
-23:05:28 **** Incremental Build of configuration Debug for project 01_Projects ****
+23:16:12 **** Incremental Build of configuration Debug for project 01_Projects ****
 make all 
 make: Nothing to be done for 'all'.
