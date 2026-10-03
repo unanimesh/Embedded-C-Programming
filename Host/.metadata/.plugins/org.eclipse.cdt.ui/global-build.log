@@ -1,87 +1,90 @@
-21:31:55 **** Clean-only build of configuration Debug for project 01_Pointer ****
-make clean 
-rm -rf ./main.d ./main.o
-rm -rf Pointer_Exercise
- 
-21:31:55 **** Build of configuration Debug for project 01_Pointer ****
+11:48:04 **** Incremental Build of configuration Debug for project 20.01_While_Loop ****
 make all 
 Building file: ../main.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
 Finished building: ../main.c
  
-Building target: 01_Pointer
+Building target: 20.01_While_Loop
 Invoking: GCC C Linker
-gcc  -o "01_Pointer" ./main.o   
-Finished building target: 01_Pointer
+gcc  -o "20.01_While_Loop" ./main.o   
+Finished building target: 20.01_While_Loop
  
-21:31:58 **** Incremental Build of configuration Debug for project 01_Pointer ****
+11:48:06 **** Incremental Build of configuration Debug for project 20.01_While_Loop ****
 make all 
 make: Nothing to be done for 'all'.
-21:32:22 **** Incremental Build of configuration Debug for project Bit_Extraction ****
+11:48:21 **** Incremental Build of configuration Debug for project 20.01_While_Loop ****
 make all 
 Building file: ../main.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
 Finished building: ../main.c
  
-Building target: Bit_Extraction
+Building target: 20.01_While_Loop
 Invoking: GCC C Linker
-gcc  -o "Bit_Extraction" ./main.o   
-Finished building target: Bit_Extraction
+gcc  -o "20.01_While_Loop" ./main.o   
+Finished building target: 20.01_While_Loop
  
-21:32:38 **** Incremental Build of configuration Debug for project Bit_Extraction ****
+11:50:47 **** Build of configuration Debug for project 20.01_While_Loop ****
+make all 
+make: Nothing to be done for 'all'.
+11:52:56 **** Build of configuration Debug for project 20.01_While_Loop ****
 make all 
 Building file: ../main.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
 Finished building: ../main.c
  
-Building target: Bit_Extraction
+Building target: 20.01_While_Loop
 Invoking: GCC C Linker
-gcc  -o "Bit_Extraction" ./main.o   
-Finished building target: Bit_Extraction
+gcc  -o "20.01_While_Loop" ./main.o   
+Finished building target: 20.01_While_Loop
  
-21:32:47 **** Incremental Build of configuration Debug for project Bit_Extraction ****
-make all 
-Building file: ../main.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
-../main.c: In function ‘main’:
-../main.c:21:17: warning: conversion lacks type at end of format [-Wformat=]
-   21 | printf("Output:%h", output);
-      |                 ^
-../main.c:21:8: warning: too many arguments for format [-Wformat-extra-args]
-   21 | printf("Output:%h", output);
-      |        ^~~~~~~~~~~
-Finished building: ../main.c
- 
-Building target: Bit_Extraction
-Invoking: GCC C Linker
-gcc  -o "Bit_Extraction" ./main.o   
-Finished building target: Bit_Extraction
- 
-21:33:01 **** Incremental Build of configuration Debug for project Bit_Extraction ****
+11:57:19 **** Build of configuration Debug for project 20.01_While_Loop ****
 make all 
 Building file: ../main.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
 Finished building: ../main.c
  
-Building target: Bit_Extraction
+Building target: 20.01_While_Loop
 Invoking: GCC C Linker
-gcc  -o "Bit_Extraction" ./main.o   
-Finished building target: Bit_Extraction
+gcc  -o "20.01_While_Loop" ./main.o   
+Finished building target: 20.01_While_Loop
  
-21:33:39 **** Incremental Build of configuration Debug for project Bit_Extraction ****
+11:57:40 **** Incremental Build of configuration Debug for project 20.01_While_Loop ****
 make all 
 Building file: ../main.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
 Finished building: ../main.c
  
-Building target: Bit_Extraction
+Building target: 20.01_While_Loop
 Invoking: GCC C Linker
-gcc  -o "Bit_Extraction" ./main.o   
-Finished building target: Bit_Extraction
+gcc  -o "20.01_While_Loop" ./main.o   
+Finished building target: 20.01_While_Loop
+ 
+11:57:52 **** Incremental Build of configuration Debug for project 20.01_While_Loop ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 20.01_While_Loop
+Invoking: GCC C Linker
+gcc  -o "20.01_While_Loop" ./main.o   
+Finished building target: 20.01_While_Loop
+ 
+11:58:47 **** Incremental Build of configuration Debug for project 20.01_While_Loop ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 20.01_While_Loop
+Invoking: GCC C Linker
+gcc  -o "20.01_While_Loop" ./main.o   
+Finished building target: 20.01_While_Loop
  

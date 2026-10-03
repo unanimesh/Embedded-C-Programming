@@ -18,7 +18,7 @@ int main()
 {
 output =  (uint8_t)((data >> 9) & 0x3F );
 
-printf("Output:0x%X", output);
+printf("Output:0x %X", output);
 
 return 0;
 }
