@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	uint16_t num = 1;
+	uint8_t num = 1;
 
 	while(num <= 100)	// Never put semicolon(;) here
 	{
