@@ -1,4 +1,4 @@
-19:44:30 **** Incremental Build of configuration Debug for project 20.04_Pyramid_Exercise ****
+20:03:13 **** Incremental Build of configuration Debug for project 20.04_Pyramid_Exercise ****
 make all 
 Building file: ../main.c
 Invoking: GCC C Compiler

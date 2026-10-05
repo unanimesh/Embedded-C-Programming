@@ -11,10 +11,19 @@ void wait_for_user_input();
 
 int main(void)
 {
-	uint32_t num;
+	int32_t num;
 
 	printf("Enter the height of the Pyramid\n");
-	scanf("%d", &num);
+	scanf("%d",&num);
+
+	if (num <= 0)
+	{
+		printf("Error! Height of Pyramid is never zero\n");
+
+		wait_for_user_input();
+		return 0;
+	}
+
 
 	for(uint32_t i = 1 ; i<=num ; i++){
 
@@ -30,6 +39,7 @@ int main(void)
 
 	wait_for_user_input();
 	return 0;
+
 }
 
 
