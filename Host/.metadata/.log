@@ -8253,3 +8253,9 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2026-10-05 18:27:46.461
 !MESSAGE Indexed '20.03_for_Loop_Exercise' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-10-05 19:02:49.413
+!MESSAGE Indexed '20.04_Pyramid_Exercise' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2026-10-05 19:11:32.592
+!MESSAGE Won't launch debug session since we failed to locate the binary.
