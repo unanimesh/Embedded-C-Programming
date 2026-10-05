@@ -1,15 +1,27 @@
-13:09:48 **** Incremental Build of configuration Debug for project 20.02_Exercise_While_Loop ****
+18:51:04 **** Incremental Build of configuration Debug for project 20.03_for_Loop_Exercise ****
 make all 
 Building file: ../main.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
 Finished building: ../main.c
  
-Building target: 20.02_Exercise_While_Loop
+Building target: 20.03_for_Loop_Exercise
 Invoking: GCC C Linker
-gcc  -o "20.02_Exercise_While_Loop" ./main.o   
-Finished building target: 20.02_Exercise_While_Loop
+gcc  -o "20.03_for_Loop_Exercise" ./main.o   
+Finished building target: 20.03_for_Loop_Exercise
  
-13:09:51 **** Incremental Build of configuration Debug for project 20.02_Exercise_While_Loop ****
+18:51:06 **** Incremental Build of configuration Debug for project 20.03_for_Loop_Exercise ****
 make all 
 make: Nothing to be done for 'all'.
+18:51:43 **** Incremental Build of configuration Debug for project 20.03_for_Loop_Exercise ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 20.03_for_Loop_Exercise
+Invoking: GCC C Linker
+gcc  -o "20.03_for_Loop_Exercise" ./main.o   
+Finished building target: 20.03_for_Loop_Exercise
+ 
