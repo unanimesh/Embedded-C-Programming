@@ -32,5 +32,4 @@ void wait(void)
 {
 	printf("\nPress Enter to Exit the Application\n");
 	while(getchar() != '\n');
-
 }
